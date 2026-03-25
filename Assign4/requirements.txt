@@ -1,0 +1,14 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+imbalanced-learn
+scipy
+tensorflow
+lightkurve
+joblib
+jupyter
+nbconvert
+ipykernel
+astropy
