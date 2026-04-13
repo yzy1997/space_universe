@@ -17,6 +17,7 @@ __pycache__/
 *.joblib
 *.h5
 *.pkl
+*.pth
 *.png
 
 # OS
