@@ -77,7 +77,7 @@ parser.add_argument('--num_classes',    type=int, default=10)
 
 args = parser.parse_args()
 
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+device = torch.device('cuda:1' if torch.cuda.is_available() else 'cpu')
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 def load_module_from_file(filepath, module_name='_user_module'):
